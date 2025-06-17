@@ -12,10 +12,10 @@ This repository contains the required data and MATLAB scripts used to generate t
 
 The repository includes:
 - [face_dataset_paper.csv](./face_dataset_paper.csv): CSV file containing empirical data sampled from DUKE Forest
-- modeldata.csv (to do): CSV file containing ecosystem estimates from LANDCARB and CENTURY models, (McCormack 2015)
-- figure1.m (to do): MATLAB script used to generate panels B-D of Figure 1
-- figure2.m: MATLAB script used to generate Figure 2
-- figure3.m: MATLAB script used to generate Figure 3
+- [model_data.csv](./model_data.csv): CSV file containing ecosystem estimates from LANDCARB and CENTURY models, (McCormack 2015)
+- [figure1.m](./figure1.m): MATLAB script used to generate panels B-D of Figure 1
+- [figure2.m](./figure2.m): MATLAB script used to generate Figure 2
+- [figure3.m](./figure3.m): MATLAB script used to generate Figure 3
 - [table1.m](./table1.m): MATLAB script used to generate parameter estimates given in Table 1
 - figureS1.m: MATLAB script to generate Supplemental Figure 1
 - figureS2.m: MATLAB script to generate Supplemental Figure 2
