@@ -45,7 +45,7 @@ run('figure3.m')
 ~~~
 <br>
 
-## Citing This Work
+## Citation
 
 To be updated. <br> <br>
 
