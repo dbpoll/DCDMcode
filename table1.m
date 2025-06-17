@@ -1,7 +1,7 @@
 %% Generates Optimal Parameters from Table 1 
 %
 % Required Files:
-% - face_dataset_paper.xlsx
+% - face_dataset_paper.csv
 % 
 % Required Toolboxes:
 % - Optimization Toolbox
