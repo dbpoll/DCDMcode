@@ -18,7 +18,7 @@ The repository includes:
 - [figure3.m](./figure3.m): MATLAB script used to generate Figure 3
 - [table1.m](./table1.m): MATLAB script used to generate parameter estimates given in Table 1
 - figureS1.m: MATLAB script to generate Supplemental Figure 1
-- figureS2.m: MATLAB script to generate Supplemental Figure 2
+- [figureS2.m](./figureS2.m): MATLAB script to generate Supplemental Figure 2
 
 
 ## Software Requirements
