@@ -13,6 +13,7 @@
 clc; clf; % clear command and figure windows
 clearvars -except dtab; % clear variables except table
 opts3 = odeset('RelTol',1e-10,'AbsTol',1e-12); % ODE options
+nrnd = 10; % digits for rounding from data import
 
 %% Import and Initialize Data
 dtab = readtable('face_datasetf.xlsx'); % read d13C data table 
@@ -37,7 +38,7 @@ for i = 1:3
     if i == 3, Oind = (dtab.Order == 5); end % Order 5
 
     Ts{i} = t(Cind2 & Oind); % cell array for time values for each category
-    Xs{i} = dtab.d13C(Cind2 & Oind); % cell array for elevated d13C values for each order category
+    Xs{i} = round(dtab.d13C(Cind2 & Oind),nrnd);  % cell array for elevated d13C values for each order category
 end
 
 Tv = [Ts{1};Ts{2};Ts{3}]; % combined time values
